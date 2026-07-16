@@ -3,7 +3,7 @@
 
 **Grad-CAM AI 视觉焦点可视化工具**
 
-![result_resnet50_20260609_233142](assets/output/result_resnet50_20260609_233142.png)
+<img src="assets/output/result_resnet50_20260609_233142.png" referrerpolicy="no-referrer" alt="result_resnet50_20260609_233142">
 
 ​	本项目为**深度学习课程设计**，基于 PyTorch + PyQt5 实现 Grad-CAM 系列算法可视化工具，用于**解析图像分类模型的可解释性**。 工具支持主流卷积网络、视觉Transformer模型，提供单图分析、批量处理、视频/摄像头实时分析、多算法对比等完整功能，直观展示AI模型的视觉关注区域。
 
