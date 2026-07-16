@@ -1,0 +1,23 @@
+# 忽略模型权重文件（超大）
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略视频文件（超大）
+*.mp4
+*.avi
+*.mov
+
+# 忽略临时文件和输出的大量图片（如果你只想显示几张示例图，建议不要全传）
+assets/temp/
+assets/output/batch/
+# 如果你 README 只用到某几张特定的 result 图，可以只保留那几张，其余忽略
+# 这里建议把 output 目录下的大量 png 也忽略，只保留你 README 里引用的那一两张
+*.png
+*.jpg
+*.jpeg
